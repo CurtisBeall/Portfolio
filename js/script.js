@@ -137,7 +137,7 @@ function menuClose() {
 //Open/Close Modal
 /////////////////////////////////////////
 //Open Modal
-$("#projects a").click(modalOpen);
+$(".projectImgs").click(modalOpen);
 $("#hireMe").click(modalOpen);
 
 //Close Project Modal

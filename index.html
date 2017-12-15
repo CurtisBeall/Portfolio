@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Front-End web development with HTML, CSS and JavaScript.">
+	<meta name="keywords" content="HTML, CSS, JavaScript, Front-End, Curtis Beall, Web Developer">
+	<meta name="author" content="Curtis Beall">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Curtis Beall</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="whBackground">
+	<!-- Header Start -->
+	<header>
+		<!-- Navigation Start -->
+		<div class="navContainer seBackground whText bolText" id="navContainer">
+			<div class="arrowContainer seBackground" id="open">
+				<span class="arrows arrowTop grBackground"></span>
+				<span class="arrows arrowBottom grBackground"></span>
+			</div>
+			<nav role="navigation" class="navInfo uppCase">
+				<div class="nav">
+					<a href="#main" class="selected">
+						<p class="s3">main</p>
+					</a>
+					<a href="#skills">
+						<p class="s3">skills</p>
+					</a>
+					<a href="#tools">
+						<p class="s3">tools</p>
+					</a>
+					<a href="#projects">
+						<p class="s3">projects</p>
+					</a>
+				</div>
+				<div class="rightNav midFlex">
+					<a href="https://github.com/CurtisBeall" target="_blank" class="socialIcon">
+                    <img src="img/icons/Github.svg"  alt="Github logo." onerror="this.src='img/icons//Github.png'" />
+                </a>
+					<a href="https://www.linkedin.com/in/curtisbeall" target="_blank" class="socialIcon">
+                    <img src="img/icons//LinkedIn.svg" alt="LinkedIn logo." onerror="this.src='img/icons//LinkedIn.png'" />
+                </a>
+					<button class="btn whText bolText" id="hireMe">Hire Me!</button>
+				</div>
+			</nav>
+
+		</div>
+		<!-- Navigation End -->
+	</header>
+	<!-- Header End -->
+	<!-- Main Start -->
+	<main>
+		<div>
+			<!-- Main Section Start -->
+			<section class="mainContainer cenElement" id="main" style="background-image: url(img/worldMap.jpeg)">
+				<div class="padElement">
+					<div class="mainInfo">
+						<h1 class="s1 whText bolText">Curtis Beall</h1>
+						<h2 class="s2 uppCase grText">Front-End Developer</h2>
+					</div>
+				</div>
+			</section>
+			<!-- Main Section End -->
+			<!-- Skills Section Start -->
+			<section class="skillsContainer trBackground" id="skills">
+				<div class="skillsInfo whText">
+					<h2 class="s2 uppCase bolText">Skills</h2>
+					<div class="skillsLogos disFlex rowFlex sbFlex">
+						<a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">
+                            <img src="img/logos/HTML.svg" alt="HTML logo." onerror="this.src='img/logos/HTML.png'" />
+                        </a>
+						<a href="https://www.w3schools.com/css/css_intro.asp" target="_blank">
+                            <img src="img/logos/CSS.svg" alt="CSS logo." onerror="this.src='img/logos/CSS.png'" />
+                        </a>
+						<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                            <img src="img/logos/JavaScript.svg" alt="JavaScript logo." onerror="this.src='img/logos/JavaScript.png'" />
+                        </a>
+					</div>
+					<div class="cenText">
+						<h3 class="s3 bolText">Front-End</h3>
+						<p class="s4">Your design, translated with HTML, CSS, JavaScript and supporting front-end libraries and frameworks &mdash; built to scale across multiple devices.</p>
+						<div>
+							<h4 class="s3 bolText">Additional Frameworks and Libraries</h4>
+							<div>
+								<a href="https://getbootstrap.com/" class="s4 smBtn" target="_blank">Bootstrap</a>
+								<a href="https://jquery.com/" class="s4 smBtn" target="_blank">jQuery</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Skills Section End -->
+			<!-- Tools Section Start -->
+			<section class="toolsContainer padElement" id="tools">
+				<h2 class="s2 uppCase trText bolText">tools</h2>
+				<div class="toolsIcons disFlex rowFlex cenText">
+					<a href="https://atom.io" target="_blank" class="">
+                        <img src="img/logos/Atom.svg" alt="Atom text editor logo" onerror="this.src='img/logos/Atom.png'" />
+                        <p class="s4">Atom</p>
+                        </a>
+					<a href="http://brackets.io" target="_blank" class="">
+                        <img src="img/logos/Brackets.svg" alt="Atom text editor logo" onerror="this.src='img/logos/Brackets.png'" />
+                        <p class="s4">Brackets</p>
+                        </a>
+					<a href="https://git-scm.com/" target="_blank" class="">
+                        <img src="img/logos/Git.svg" alt="Git logo" onerror="this.src='img/logos/Git.png'" />
+                        <p class="s4">Git</p>
+                    </a>
+					<a href="https://www.perforce.com/" target="_blank" class="">
+                        <img src="img/logos/Perforce.svg" alt="Perforce logo" onerror="this.src='img/logos/Perforce.png'" />
+                        <p class="s4">Perforce</p>
+                    </a>
+				</div>
+			</section>
+			<!-- Tools Section End -->
+			<!-- Projects Section Start -->
+			<section class="projectsContainer padElement" id="projects">
+				<h2 class="s2 uppCase trText bolText">projects</h2>
+				<div class="projectImgsContainer disFlex rowFlex cenText">
+					<div>
+						<a class="projectImgs" id="project01">
+                            <img src="img/example/Pacific_Tavern.jpeg" alt="Pacific Tavern website preview." />
+                            <h3 class="s3">Pacific Tavern Website</h3>
+                        </a>
+						<span class="projectLinks">
+                            <a href="http://pacific-tavern.curtisbeall.com/" class="s3 prText" target="_blank" id="project01Link">Vist Site</a>
+                        </span>
+					</div>
+					<div>
+						<a class="projectImgs" id="project02">
+                            <img src="img/example/Kickasso.jpeg" alt="Kickasso website preview." />
+                        <h3 class="s3">Kickasso Website</h3>
+                        </a>
+						<span class="projectLinks">
+                            <a href="http://kickasso.curtisbeall.com/" class="s3 prText" target="_blank"  id="project02Link">Vist Site</a>
+                        </span>
+					</div>
+					<div>
+						<a class="projectImgs" id="project03">
+                            <img src="img/example/Splash.jpeg" alt="Splash website preview." />
+                            <h3 class="s3">Splash Website</h3>
+                        </a>
+						<span class="projectLinks">
+                            <a href="http://splash.curtisbeall.com/" class="s3 prText" target="_blank" id="project03Link">Vist Site</a>
+                        </span>
+					</div>
+				</div>
+			</section>
+			<!-- Section Flow Start -->
+			<div class="sectionFlow"></div>
+			<!-- Section Flow End -->
+			<!-- Projects Section End -->
+		</div>
+
+	</main>
+	<!-- Main End -->
+	<!-- Project01 Modal Start -->
+	<div class="modal whBackground remElement" id="project01Modal">
+		<h2 class="s2 uppCase trText bolText" id="project01TitleModal">project01Title</h2>
+		<a class="s4 uppCase prText bolText" target="_blank" id="project01LinkModal">Vist Link</a>
+		<div class="modalInfo disFlex">
+			<div class="technologiesContainer">
+				<h3 class="s3 seText bolText">Technologies</h3>
+				<ul class="s5">
+					<li>HTML 5 Media</li>
+					<li>CSS</li>
+					<li>jQuery</li>
+					<li>Responsive Design</li>
+					<li>Side-Bar Menu</li>
+					<li>Interactive Animation</li>
+					<li>Date Picker</li>
+					<li>Image Carousal</li>
+					<li>Auto Populated Content</li>
+					<li>Form Validation</li>
+					<li>Modal Overlay</li>
+					<li>Scroll to Elements</li>
+				</ul>
+			</div>
+			<div class="detailsContainer">
+				<h3 class="s3 seText bolText">Details</h3>
+				<p class="s5">
+					This mock website was designed for the restaurant Pacific Tavern by <a href="https://dribbble.com/shots/1603760-Pacific" class="prText">George Zhang</a>. It was built with HTML, styled with CSS and heavily uses jQuery to perform functions throughout the site.
+				</p>
+				<br>
+				<p class="s5">
+					This site was built to be mobile-first and fully responsive across any desktop or mobile device. On mobile devices and smaller screens users use a hidden side-bar menu by clicking on an arrow at the top of the screen. This site is designed so you never leave the page. Instead it uses smooth section scrolling to navigate up and down the page.
+				</p>
+				<br>
+				<p class="s5">
+					Also featured is a working reservation modal built from scratch. It was built to limit users from setting a reservation on the wrong day with too many or few guests. It also uses filed validation as well to ensure are fields are correct. Also built from scratch is an image carousal in the Gallery section that showcases the restaurant. For ease of updating the Menu and Drink sections they are auto populated from outside lists.
+				</p>
+			</div>
+		</div>
+		<div class="cenText">
+			<button class="btn seBackground whText bolText" type="button" onclick="modalClose()">Close</button>
+		</div>
+	</div>
+	<!-- Project01 Modal End -->
+	<!-- Project02 Modal Start -->
+	<div class="modal whBackground remElement" id="project02Modal">
+		<h2 class="s2 uppCase trText bolText" id="project02TitleModal">project01Title</h2>
+		<a class="s4 uppCase prText bolText" target="_blank" id="project02LinkModal">Vist Link</a>
+		<div class="modalInfo disFlex">
+			<div class="technologiesContainer">
+				<h3 class="s3 seText bolText">Technologies</h3>
+				<ul class="s5">
+					<li>HTML 5 Media</li>
+					<li>CSS</li>
+					<li>jQuery</li>
+					<li>Bootstrap</li>
+					<li>Responsive Design</li>
+					<li>Side-Bar Menu</li>
+					<li>Shopping Cart</li>
+					<li>Filtering System</li>
+					<li>Image Carousal</li>
+					<li>Interactive Animation</li>
+					<li>Modal Overlays</li>
+				</ul>
+			</div>
+			<div class="detailsContainer">
+				<h3 class="s3 seText bolText">Details</h3>
+				<p class="s5">
+					This mock website was designed for the shoe company Kickasso by <a href="https://dribbble.com/shots/2567910-Sneakers-Ecommerce-Comps" class="prText">Filip Slováček</a>. Built with HTML, this site was styled with CSS and Bootstrap. The majority of the functions on this site were coded from scratch, the exception being on the product pages, where a modified Bootstrap image carousal is used to showcase the products.
+				</p>
+				<br>
+				<p class="s5">
+					Designed for simplicity, this site uses a hamburger side-bar menu whether users are on a desktop or mobile device. This made it easier to build this site to be mobile-first and fully responsive.
+				</p>
+				<br>
+				<p class="s5">
+					Also featured is a cart function built from scratch. Products can be added, removed, and have their counts changed in real time. The cost is also updated in real time on the cart page while the number of different items in your cart can be seen throughout the site I upper right corner in real time. On the Shop page there is a filtering system that was built from scratch. A list of the filtered items are used for next and previous products when navigating on the product page.
+				</p>
+			</div>
+		</div>
+		<div class="cenText">
+			<button class="btn seBackground whText bolText" type="button" onclick="modalClose()">Close</button>
+		</div>
+	</div>
+	<!-- Project02 Modal End -->
+	<!-- Project03 Modal Start -->
+	<div class="modal whBackground remElement" id="project03Modal">
+		<h2 class="s2 uppCase trText bolText" id="project03TitleModal">project01Title</h2>
+		<a class="s4 uppCase prText bolText" target="_blank" id="project03LinkModal">Vist Link</a>
+		<div class="modalInfo disFlex">
+			<div class="technologiesContainer">
+				<h3 class="s3 seText bolText">Technologies</h3>
+				<ul class="s5">
+					<li>HTML 5 Media</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>Responsive Design</li>
+					<li>Drop-Down Menu</li>
+					<li>Interactive Animation</li>
+					<li>Parallax Scrolling</li>
+				</ul>
+			</div>
+			<div class="detailsContainer">
+				<h3 class="s3 seText bolText">Details</h3>
+				<p class="s5">
+					This website is designed for a fictional agency called Splash. It was built without the use of any third party frameworks or libraries. This was an intentional decision as I wanted to see what it would be like to not use such resources. A hamburger menu, created by <a href="https://callmenick.com/" class="prText">Nick Salloum</a>, was used in developing this site. </p>
+				<br>
+				<p class="s5">
+					Designed to be fully responsive this website utilizes the hamburger drop-down menu for mobile devices and smaller screens. The Work page use an algorithm in the CSS calculation to easily change the rows. </p>
+				<br>
+				<p class="s5">
+					Also featured is parallax scrolling on the Home page and interactive animation on the About page. The animation, linked to the scroll position, moves text information on the page to hide and reveal them from behind their respective images.
+				</p>
+			</div>
+		</div>
+		<div class="cenText">
+			<button class="btn seBackground whText bolText" type="button" onclick="modalClose()">Close</button>
+		</div>
+	</div>
+	<!-- Project03 Modal End -->
+	<!-- Hire Me Modal Start -->
+	<section id="hireMeModal" class="modal whBackground remElement">
+		<div class="formContainer">
+			<div class="disFlex sbFlex">
+				<div class="formInfo">
+					<h2 class="s2 bolText uppCase prText">Ready to Begin?</h2>
+					<br>
+					<p class="s4">Tell me more about your project and what you are trying to achieve.</p>
+					<br>
+					<p class="s4">Whether you are an established company, a small startup or just an individual seeking web presence, let’s start a conversation today.</p>
+					<div id="formMessagesModal" class="warning"></div>
+				</div>
+				<div class="form">
+					<form id="contactFormModal" method="post" action="mailer.php" class="cenElement">
+						<input id="NameModal" class="formField" type="text" required onfocus="clearField(this.id); clearHighlights();" onfocusout="clearField(this.id);" name="Name" value="Name*" />
+						<input id="EmailModal" class="formField" type="email" required onfocus="clearField(this.id); clearHighlights();" onfocusout="clearField(this.id);" name="Email" value="Email*" />
+						<textarea id="MessageModal" class="formField messageField" required onfocus="clearField(this.id); clearHighlights();" onfocusout="clearField(this.id);" name="Message">Message*</textarea>
+						<button type="submit" id="submitButton" class="btn whText bolText" onclick="return formValidationModal();">Submit</button>
+						<!-- Left empty and hidden for spam bots.  If filled out, message will not send. -->
+						<input id="spamBlockModal" class="hidden" type="text" name="spamBlock" value="" />
+					</form>
+				</div>
+			</div>
+			<div>
+				<div id="copyContainer" class="copyrightText">
+					<p>&copy;2017 Curtis Beall</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Hire Me Modal End -->
+	<!-- Footer Start -->
+	<footer class="footerContainer seBackground whText">
+		<div class="formContainer padElement">
+			<div class="disFlex sbFlex">
+				<div class="formInfo">
+					<h2 class="s2 bolText uppCase prText">Ready to Begin?</h2>
+					<br>
+					<p class="s4">Tell me more about your project and what you are trying to achieve.</p>
+					<br>
+					<p class="s4">Whether you are an established company, a small startup or just an individual seeking web presence, let’s start a conversation today.</p>
+					<div id="formMessages" class="warning"></div>
+				</div>
+				<div class="form">
+					<form id="contactForm" method="post" action="mailer.php" class="cenElement">
+						<input id="Name" class="formField" type="text" required onfocus="clearField(this.id); clearHighlights();" onfocusout="clearField(this.id);" name="Name" value="Name*" />
+						<input id="Email" class="formField" type="email" required onfocus="clearField(this.id); clearHighlights();" onfocusout="clearField(this.id);" name="Email" value="Email*" />
+						<textarea id="Message" class="formField messageField" required onfocus="clearField(this.id); clearHighlights();" onfocusout="clearField(this.id);" name="Message">Message*</textarea>
+						<button type="submit" id="submitButton" class="btn whText bolText" onclick="return formValidation();">Submit</button>
+						<!-- Left empty and hidden for spam bots.  If filled out, message will not send. -->
+						<input id="spamBlock" class="hidden" type="text" name="spamBlock" value="" />
+					</form>
+				</div>
+			</div>
+			<div>
+				<div id="copyContainer" class="copyrightText">
+					<p>&copy;2017 Curtis Beall</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer End -->
+</body>
+<!-- Javascript Section Start -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+<!-- Javascript Section End -->
+
+</html>
